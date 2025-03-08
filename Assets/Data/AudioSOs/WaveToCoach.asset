@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40ba38e086df5eb4f92b6dd104b90adf, type: 3}
+  m_Name: WaveToCoach
+  m_EditorClassIdentifier: 
+  SFXClipName: wavetocoach
+  languageVoiceDatas:
+  - audioSubtitle: Hey, waive back to your coach with the controllers in your hands.
+      Let him know you can follow his instructions
+    audioClip: {fileID: 8300000, guid: 77a4cacd8900f804ab21e3d98bca53b9, type: 3}
+  - audioSubtitle: Hey, waive back to your coach with the controllers in your hands.
+      Let him know you can follow his instructions
+    audioClip: {fileID: 8300000, guid: 4e0b5f797ff0d214eb4e5f123f7dae86, type: 3}
