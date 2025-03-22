@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿//The project is licensed under GPL-3.0, which requires all modifications and distributions to adhere to the same license.
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -20,16 +22,6 @@ public class ActivateLaser : MonoBehaviour
     
     void Update()
     {
-        /*if(Anchor_0.activeInHierarchy && Anchor_1.activeInHierarchy&& b_Beam.activeInHierarchy)
-        {
-            actualBeam.SetActive(true);
-        }
-        else
-        {
-            actualBeam.SetActive(false);
-
-        }
-*/
         if(first)
         {
             if (Anchor_0.activeInHierarchy)

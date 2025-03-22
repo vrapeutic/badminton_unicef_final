@@ -1,4 +1,6 @@
-﻿using System.Collections;
+﻿//The project is licensed under GPL-3.0, which requires all modifications and distributions to adhere to the same license.
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -34,9 +36,5 @@ public class MovingLamp : MonoBehaviour
 
         currentNode = points[i];
 
-        /*if (Vector3.Distance(transform.position, point_1.position) <= 1f)
-        {
-            transform.position = Vector3.Lerp(transform.position, point_0.position, speed * Time.deltaTime);
-        }*/
     }
 }
