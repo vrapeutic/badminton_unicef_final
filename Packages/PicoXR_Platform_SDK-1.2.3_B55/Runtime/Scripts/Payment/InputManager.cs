@@ -26,14 +26,6 @@ namespace Unity.XR.PXR
             InitKeyBoard();
         }
 
-        void Start()
-        {
-        }
-
-        void Update()
-        {
-
-        }
 
         void InitKeyBoard()
         {

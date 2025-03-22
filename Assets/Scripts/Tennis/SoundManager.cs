@@ -26,15 +26,7 @@ public class SoundManager : MonoBehaviour
     [SerializeField] AudioClip correctClip;
     [SerializeField] AudioClip wrongClip;
 
-    private void Start()
-    {
-       // GameController.Instance.OnBallCollide += PlaySFX;
-    }
-
-    private void OnDisable()
-    {
-       // GameController.Instance.OnBallCollide -= PlaySFX;
-    }
+   
 
     void PlaySFX(string name)
     {

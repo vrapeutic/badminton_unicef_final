@@ -9,12 +9,6 @@ public class MechanicManager : MonoBehaviour
     public int i = 0;
 
 
-    void Start()
-    {
-        
-    }
-
-    
     void Update()
     {
         Mirrors = GameObject.FindGameObjectsWithTag("Mirror");

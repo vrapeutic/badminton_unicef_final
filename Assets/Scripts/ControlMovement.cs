@@ -7,11 +7,6 @@ public class ControlMovement : MonoBehaviour
     [SerializeField] Transform player;
     Vector3 targetPos;
 
-    void Start()
-    {
-        
-    }
-
     public void TeleportPlayer(Transform pos)
     {
         targetPos = pos.position; 

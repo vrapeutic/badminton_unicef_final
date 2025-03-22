@@ -8,11 +8,6 @@ public class BirdMovementTrigger : MonoBehaviour
     [SerializeField] Animator bird;
     [SerializeField] Animator birdParent;
 
-    //Statistics stats;
-    private void Start()
-    {
-        //stats = Statistics.instane;
-    }
 
     private void OnTriggerEnter(Collider other)
     {
