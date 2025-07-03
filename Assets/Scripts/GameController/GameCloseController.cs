@@ -3,6 +3,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameCloseController : MonoBehaviour
 {
@@ -19,6 +20,17 @@ public class GameCloseController : MonoBehaviour
     IEnumerator EndGameByCoroutine()
     {
         yield return new WaitForSeconds(5); // Wait for 5 seconds
-        Application.Quit(); // Quit the application. Note: This will not work in the Unity Editor.
+        string scenePath = SceneUtility.GetScenePathByBuildIndex(0);
+        string sceneName = System.IO.Path.GetFileNameWithoutExtension(scenePath);
+
+        if (sceneName == "SystemLobby")
+        {
+            AndroidIntentHelper.LaunchExternalActivity();
+            Application.Quit(); // Quit the application. Note: This will not work in the Unity Editor.
+        }
+        else
+        {
+            Application.Quit(); // Quit the application. Note: This will not work in the Unity Editor.
+        }
     }
 }
